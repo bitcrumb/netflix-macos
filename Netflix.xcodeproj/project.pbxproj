@@ -278,7 +278,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = be.bitcrumbs.Netflix;
+				PRODUCT_BUNDLE_IDENTIFIER = be.bitcrumbs.netflix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -297,7 +297,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = be.bitcrumbs.Netflix;
+				PRODUCT_BUNDLE_IDENTIFIER = be.bitcrumbs.netflix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
