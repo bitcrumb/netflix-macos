@@ -40,14 +40,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DEE7EE6EE0FD2303C953EC2454C30D8 /* SwiftFormat */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = SwiftFormat;
-			path = SwiftFormat;
-			sourceTree = "<group>";
-		};
 		275A58527939623DAF7362AAFF7CF9F5 /* Pods-Netflix */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +66,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		37843AFB400D5948266EFF83D844D298 /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
 		39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,23 +82,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4FAF764B0968FA76D985E563B50F54AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5603D18FA3FACCD8B1248AA66F68D0F /* SwiftFormat */,
+				37843AFB400D5948266EFF83D844D298 /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
-				DF6C97AB89FBFF507049B1577E12B8CC /* Pods */,
+				4FAF764B0968FA76D985E563B50F54AF /* Pods */,
 				34D94401BCD93285FF6C8139DA66F181 /* Products */,
 				EC9CAE993C63A72C09F4096FCE13C7AD /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		DF6C97AB89FBFF507049B1577E12B8CC /* Pods */ = {
+		C5603D18FA3FACCD8B1248AA66F68D0F /* SwiftFormat */ = {
 			isa = PBXGroup;
 			children = (
-				0DEE7EE6EE0FD2303C953EC2454C30D8 /* SwiftFormat */,
 			);
-			name = Pods;
+			name = SwiftFormat;
+			path = SwiftFormat;
 			sourceTree = "<group>";
 		};
 		EC9CAE993C63A72C09F4096FCE13C7AD /* Targets Support Files */ = {

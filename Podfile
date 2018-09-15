@@ -4,4 +4,5 @@ target 'Netflix' do
   use_frameworks!
 
   pod 'SwiftFormat/CLI'
+  pod 'SwiftLint'
 end
