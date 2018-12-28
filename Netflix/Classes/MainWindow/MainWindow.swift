@@ -25,13 +25,13 @@ class MainWindow: NSWindow {
 
   func setupAppearance() {
     backgroundColor = NSColor(hue: 0.00, saturation: 0.00, brightness: 0.07, alpha: 1.00)
-    contentMinSize = NSSize(width: 480, height: 300)
-    // styleMask.insert(.fullSizeContentView)
+    contentMinSize = NSSize(width: 800, height: 600)
+    // styleMask.insert(.)
   }
 
   func setupIdentifiers() {
     identifier = NSUserInterfaceItemIdentifier(rawValue: "main")
-    setFrameAutosaveName(NSWindow.FrameAutosaveName(rawValue: "be.bitcrumbs.netflix.main"))
+    setFrameAutosaveName("be.bitcrumbs.netflix.main")
   }
 
   func setupBehavior() {

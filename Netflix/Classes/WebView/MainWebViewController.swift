@@ -12,6 +12,8 @@ import WebKit
 class MainWebViewController: NSViewController {
   @IBOutlet var webView: MainWebView!
 
+  var webBridge: WebBridge = WebBridge()
+
   override func viewDidLoad() {
     super.viewDidLoad()
 
@@ -19,6 +21,7 @@ class MainWebViewController: NSViewController {
     webView.navigationDelegate = self
 
     loadHomepage()
+    registerWebBridge()
   }
 
   func loadHomepage() {
@@ -26,6 +29,16 @@ class MainWebViewController: NSViewController {
       let request = URLRequest(url: url)
       webView.load(request)
     }
+  }
+
+  // Web bridge
+
+  func registerWebBridge() {
+    webBridge.register(webView: webView)
+  }
+
+  func unregisterWebBridge() {
+    webBridge.unregister()
   }
 }
 
